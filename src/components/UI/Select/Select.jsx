@@ -16,7 +16,6 @@ const Select = ({ selected, options, setSelected }) => {
       ref={rootEl}
       onClick={e => {
         setIsOpen(!isOpen);
-        console.log(e.currentTarget);
       }}
       className="select"
     >
