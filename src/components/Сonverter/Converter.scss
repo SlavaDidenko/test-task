@@ -1,0 +1,37 @@
+.converter {
+  margin-top: 50px;
+  // .converter__wrapper
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+
+  }
+
+  &__wrapper-bottom{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+  }
+
+  &__input {
+    min-height: 50px;
+    max-width: 150px;
+    border: 2px solid lavender;
+    padding: 5px 15px;
+    font-weight: 700;
+    font-size: 24px;
+
+    &--letf {
+      margin-right: 45px;
+    }
+  }
+
+  &__btn {
+    margin: 0 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+}
